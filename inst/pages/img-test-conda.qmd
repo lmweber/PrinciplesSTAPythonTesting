@@ -1,0 +1,13 @@
+# Test conda
+
+```{r}
+library(reticulate)
+# activate conda environment
+env <- "~/software/mambaforge/bin/conda"
+options(reticulate.conda_binary=.)
+use_condaenv("commot")
+# load dependencies
+ad <- import("anndata")
+ct <- import("commot")
+pd <- import("pandas")
+```
