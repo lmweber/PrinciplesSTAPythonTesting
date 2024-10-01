@@ -39,22 +39,11 @@ Imports:
     ExperimentHub, 
     ggplot2, 
     ggspavis, 
-    hoodscanR,
-    imcRtools, 
-    lobstr,
-    nnSVG, 
     patchwork, 
-    pheatmap, 
-    RANN,
-    RColorBrewer,
-    rtracklayer, 
     scater, 
     scran, 
     SpatialExperiment, 
-    STexampleData, 
-    spatialLIBD,
-    tidyr,
-    zoo
+    tidyr
 Suggests: 
     BiocManager, 
     BiocVersion, 
