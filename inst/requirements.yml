@@ -1,6 +1,8 @@
 name: commot
 channels:
+  - bioconda
   - conda-forge
+  - defaults
 dependencies:
   - bzip2=1.0.8=h93a5062_5
   - ca-certificates=2023.11.17=hf0a4a13_0
