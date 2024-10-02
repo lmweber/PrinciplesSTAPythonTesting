@@ -5,11 +5,7 @@
 library(reticulate)
 # env <- "~/software/mambaforge/bin/conda"
 # options(reticulate.conda_binary=.)
-# use_condaenv("BiocBook")
-# myenvs <- conda_list()
-# print(myenvs)
-# envname <- myenvs$name[2]
-# use_condaenv(envname)
+use_condaenv("BiocBook", required = TRUE)
 # load dependencies
 ad <- import("anndata")
 ct <- import("commot")
